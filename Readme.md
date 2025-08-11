@@ -1,6 +1,6 @@
 # Mental Health Project
 
-This project explores factors related to mental health using Python. Potentially machine learning would also be applied to particularly investigate the major factors that contribute to mental well-being.
+This project explores factors related to mental health using Python. It will analyze how factors like gender, age, family history, and remote work affect mental health in tech. Potentially machine learning would also be applied to particularly investigate the major factors that contribute to mental well-being.
 
 # About Dataset
 [web page link] https://www.kaggle.com/datasets/sumansharmadataworld/depression-surveydataset-for-analysis
@@ -21,9 +21,10 @@ To activate the environment:
 ```
 
 - Ask:  
-    What factors lead to depression? 
-    [personal interest] Does deprivation of sleep lead to higher chances of depression?
-    Analyze how factors like gender, age, family history, and remote work affect mental health in tech.
+    What factors lead to depression (higher percentage)? 
+    [personal interest] Does deprivation of sleep/job satisfaction lead to higher chances of depression?
+    Higher correlation between variables?
+    Should remote or hybrid work be promoted?
     Explore trends in seeking help and employer support.
 - Prepare
 - Process
