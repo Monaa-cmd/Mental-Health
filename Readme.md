@@ -22,20 +22,21 @@ To activate the environment:
 
 - Ask:  
     [Descriptive analysis]
-    Outliers [box plot: ** not necessary because the range of the value of variables are narrow]
-    Distribution of depression among different genders
-    Correlation between factors? 
+    correlation (scatterplots matrics to see relation)
 
     [EDA]
-    Is there a major difference between genders?
+    Does deprivation of sleep/job satisfaction/dietary habits lead to higher chances of depression? [T-test/ANNOVA between depressed and group with normal well-being]
+    
     What factors lead to higher tendency towards depression? And the major factors? [linear regression]
-    What are the major factors of depression among the depressed group? For instance, does deprivation of sleep/job satisfaction/dietary habits lead to higher chances of depression? [T-test/ANNOVA between depressed and group with normal well-being]
 
     [Solutions concerning HR: What can HR do to improve the well-being of employees?]
     Should remote or hybrid work be promoted?
     Promotion of healthy lifestyle [sleep and eating]
     Explore trends in seeking help and employer support.
     Potential things to consider [exercise, compensation, package and bonus to support individuals under higher pressure]
+
+    [ML]
+
 - Prepare
 - Process
 - Analyze
@@ -47,9 +48,12 @@ To activate the environment:
 
 [Descriptive analysis]
 1. The sample contains a group of participants whose age range from 18 to 60, with an average age of 39.
-2. The sample is well-distributed with similar percentage of male and female samples, and the median value in each factors are also close to median value, except Work/Study hours, which has a distinctive higher standard deviation (3.77) compared to median (6). Potentially there's correlation between Work/Study hours and depression.
+2. The sample is well-distributed and representative, with similar percentage of male and female samples, and the median value in each factors are also close to median value, except Work/Study hours, which has a distinctive higher standard deviation (3.77) compared to median (6). Potentially there's correlation between Work/Study hours and depression.
 3. There are a lot of missing values from the column 'Academic Pressure' , 'CPGA' and 'Study Satisfaction' (all around 80%) due to the fact that the survey is mainly aimed at working professionals. Therefore, this variable will not be taken into consideration for later analysis.
-4. The distribution of depression between male and female shows no obvious contrast, which indicates that the role of gender potentially play a less important role in causing depression.
 
 
-[EDA]
+[EDA] 接着
+work/study hours ANNOVA test
+Sleep duration Annova
+
+ALso: fix scatterplot matrix
