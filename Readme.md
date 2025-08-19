@@ -14,14 +14,11 @@ This dataset was collected as part of a comprehensive survey aimed at understand
 - ML (to be continued)
 
 ## Getting Started
-To activate the environment:
-
-```bash
-.venv\Scripts\Activate.ps1
-```
-
 - Ask:  
-    [Descriptive analysis]
+- Prepare
+- Process
+- Analyze
+     [Descriptive analysis]
     correlation (scatterplots matrics to see relation)
 
     [EDA]
@@ -29,15 +26,5 @@ To activate the environment:
 
     [ML]
     to be continued
-
-- Prepare
-- Process
-- Analyze
-    Pitfall
 - Share
 - Act
-    [Solutions concerning HR: What can HR do to improve the well-being of employees?]
-    Should remote or hybrid work be promoted?
-    Promotion of healthy lifestyle [sleep and eating]
-    Explore trends in seeking help and employer support.
-    Potential things to consider [exercise, compensation, package and bonus to support individuals under higher pressure]
