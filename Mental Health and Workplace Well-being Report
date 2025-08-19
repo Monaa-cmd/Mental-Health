@@ -1,15 +1,24 @@
-# Mental Health Report
+# Mental Health and Workplace Well-being Report
 
-## Descriptive analysis
+## 1. Executive Summary
+> This analysis was done to identify workplace and lifestyle factors associated with depression, aiming to improve workplace well-being.
+
+> **Key finding**: It is found that high work pressure and unhealthy dietary habits increase depression risk, while job satisfaction and sufficient sleep are protective.”
+
+> Recommendations for HR include promoting healthy eating, encouraging work–life balance, etc.
+
+## 2. Descriptive analysis
 
 1. The sample contains a group of participants whose age range from 18 to 60, with an average age of 39.
 2. The sample is well-distributed and representative, with similar percentage of male and female samples, and the median value in each factors are also close to median value, except Work/Study hours, which has a distinctive higher standard deviation (3.77) compared to median (6).
 3. There are a lot of missing values from the column 'Academic Pressure' , 'CPGA' and 'Study Satisfaction' (all around 80%) due to the fact that the survey is mainly aimed at working professionals. Therefore, this variable will not be taken into consideration for later analysis.
-4. From the scatter plot, there are a few observation between several factors that potentially leads to depression.
+4. From the scatter plot matrix, there are a few observation between several factors that potentially leads to depression.
     * Work/Study Hours vs. Depression
+
         Bottom-right scatter plots show that the orange points (Depression = Yes) are more common at higher work/study hours. This does suggest that longer work/study time might be associated with higher depression likelihood.
 
     * Job Satisfaction vs. Depression
+
         Orange points cluster toward lower job satisfaction values, indicating that lower satisfaction may be related to depression risk.
 
     * Work Pressure vs. Depression
@@ -17,14 +26,12 @@
         Orange points are more common in higher work pressure levels, though not as strong as the job satisfaction pattern. This fits with the idea that high work pressure could be a contributing factor.
 
     * Sleep Hours Numeric vs. Depression
+
         There’s no consistent linear pattern as both orange points in both low and high sleep durations. This could mean that sleep duration alone doesn’t explain depression risk — maybe sleep quality or sleep consistency would be more important, but those aren’t in the dataset.
 
-    In conclusion, work pressure, job satisfaction, sleep duration, and work/study Hours are all correlated to some extent to potentially lead to depression. Therefore, the sample dataset serves a valid tool for our anlysis.
+    In conclusion, work pressure, job satisfaction, sleep duration, and work/study Hours are all correlated to some extent, potentially leading to depression. Therefore, the sample dataset serves a valid tool for our anlysis.
 
----
-
-## EDA analysis
-***Result***
+## 3. Exploratory data analysis
 
 A logistic regression was conducted to examine the factors associated with depression among 2,556 respondents. The model was statistically significant (LLR p < 0.001) and explained a substantial proportion of variance (Pseudo R² = 0.612).
 
@@ -52,9 +59,9 @@ With regard to sleep:
 
     * Gender did not have a significant effect (p = 0.676).
 
-***Discussion***
+## 4. Discussion
 
-    The findings highlight the strong role of psychosocial and lifestyle factors in predicting depression. Consistent with previous literature, suicidal ideation was the most powerful predictor. Job-related stressors also played an important role: higher work pressure increased the risk of depression, whereas greater job satisfaction was protective.
+    The findings highlight the strong role of psychosocial and lifestyle factors in predicting depression. Suicidal ideation is the most powerful predictor. Job-related stressors also played an important role: higher work pressure increased the risk of depression, whereas greater job satisfaction was protective.
 
     Dietary habits were another important predictor: unhealthy eating patterns significantly increased the odds of depression, supporting the growing body of evidence linking nutrition and mental health.
 
@@ -62,7 +69,45 @@ With regard to sleep:
 
     Interestingly, gender was not a significant predictor in this sample, in contrast with some prior studies that report higher depression prevalence among females. This suggests that other lifestyle and psychosocial factors may play a more dominant role in this dataset.
 
-to do:
-fix draft for descriptive analysis
-details in EDA report(question, etc.): protective?
-solution (action fro HR)
+## 5. Potential Pitfalls & Limitations
+    
+    * Self-report bias: 
+    Responses rely on participants’ honesty.
+
+    * Cross-sectional data: 
+    Cannot establish causation, only associations.
+
+    * Survey design bias: 
+    Dataset skewed toward working professionals (academic variables largely missing).
+
+    * Unmeasured variables: 
+    Factors like social support, therapy access, or physical activity not included.
+
+    * Class imbalance: 
+    If depression cases are less frequent, odds ratios may appear inflated.
+
+## 6. Recommendations for HR Department
+Based on the findings, HR can take proactive steps:
+
+***Workplace Practices***
+
+    * Promote reasonable work hours and hybrid/remote flexibility to reduce work pressure.
+    * Encourage managers to track job satisfaction and act on employee feedback.
+***Lifestyle & Well-being***
+
+    * Provide access to healthy meals/snacks at workplace.
+    * Promote wellness programs (exercise, mindfulness, stress management).
+    * Encourage healthy sleep hygiene through awareness campaigns.
+
+***Support Structures***
+
+    * Improve access to mental health services (EAP, counseling, peer support).
+    * Create a culture where talking about mental health is normalized.
+    * Train managers to recognize warning signs of high stress or depression.
+
+***Compensation & Recognition***
+
+    * Consider fair compensation, bonuses, and benefits to reduce pressure and financial stress.
+
+## 7. Conclusion
+This study highlights that depression is strongly linked to workplace stress, lifestyle choices, and job satisfaction. HR can play a central role in mitigating these risks by fostering supportive work environments, promoting healthy habits, and providing accessible mental health resources.
